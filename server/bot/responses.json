@@ -1,0 +1,19 @@
+{
+ 
+    "answers": [
+        {
+            "intent": "general_hello",
+            "answer": "Hello world."
+        },
+        {
+            "intent": "general_who_made_you",
+            "answer": "DSIA students made me!"
+        },
+        {
+            "intent": "None",
+            "modelq": "Exclude",
+            "shortq": "Exclude",
+            "answer": "Sorry, I do not understand. Please try and re-phrase your question."
+        }
+    ]
+}
