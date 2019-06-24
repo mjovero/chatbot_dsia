@@ -1,13 +1,29 @@
 {
- 
-    "answers": [
-        {
+
+    "answers": [{
             "intent": "general_hello",
             "answer": "Hello world."
         },
         {
             "intent": "general_who_made_you",
             "answer": "DSIA students made me!"
+        },
+        {
+            "intent": "what_is_calcoin",
+            "answer": "calcoin is the crypto currecty used by california to dispurse benefits to californian."
+        },
+        {
+            "intent": "use_calcoin",
+            "answer": "Use calcoin to purchase grocery."
+        },
+        {
+            "intent": "get_calcoin",
+            "answer": "Register at ca.app.calcoin to register for calcoin."
+        },
+        {
+            "intent": "benefit",
+            "answer": "calcoin is applicable for all california state benefits."
+
         },
         {
             "intent": "None",

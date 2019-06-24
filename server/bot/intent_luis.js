@@ -11,7 +11,7 @@ var luis_api_key = process.env.LUIS_API_KEY;
 
 
 var luisRootURLDSIA = `https://westus.api.cognitive.microsoft.com/luis/v2.0/apps/${luis_app_id}?verbose=true&timezoneOffset=-360&subscription-key=${luis_api_key}&q=`;
-
+//var luisRootURLDSIA = `https://westus.api.cognitive.microsoft.com/luis/v2.0/apps/eaebd6a2-40a4-4646-af70-392d12ef34ec?verbose=true&timezoneOffset=-360&subscription-key=c6b88cf03f064319956c7b0e8500061e&q=`;
 var getIntentLUIS = (input) => {
     return new Promise((resolve, reject) => {
         var luisURL = luisRootURLDSIA + input;
